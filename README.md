@@ -45,3 +45,9 @@ public class HelloWorldTest {
 		helloWorld1.test();
 	}
 }
+
+public void test() {
+	AxisHttpSession sessionx = (AxisHttpSession)MessageContext.getCurrentContext().getSession();
+	System.out.println("Test SessionId : " + sessionx.getRep().getId());
+	System.out.println("test run ...... >>> " + (sessionx != null ? sessionx.get("user_name") : " session is null!!"));
+}
