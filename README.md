@@ -1,3 +1,5 @@
+https://testgw.lakala-japan.com/vue/test.html
+
 # sales
 販売システム
 
